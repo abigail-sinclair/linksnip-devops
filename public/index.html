@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LinkSnip — учебный проект</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main>
+    <h1>LinkSnip</h1>
+    <p class="badge">учебный проект · демо</p>
+    <form id="create-form">
+      <input id="url" type="url" placeholder="https://example.com/very/long/url" required />
+      <button type="submit">Сократить</button>
+    </form>
+    <p id="status" role="status"></p>
+    <h2>Все ссылки</h2>
+    <ul id="links"></ul>
+  </main>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
